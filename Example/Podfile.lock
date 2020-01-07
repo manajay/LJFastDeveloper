@@ -1,0 +1,49 @@
+PODS:
+  - FBRetainCycleDetector (0.1.4)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FLEX (3.1.2)
+  - LJFastDeveloper (0.1.0):
+    - LJFastDeveloper/Core (= 0.1.0)
+  - LJFastDeveloper/App (0.1.0):
+    - WoodPeckeriOS (~> 1.2.4)
+  - LJFastDeveloper/Core (0.1.0):
+    - FLEX (~> 3.1.1)
+  - LJFastDeveloper/Leaks (0.1.0):
+    - MLeaksFinder (~> 1.0.0)
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+  - WoodPeckeriOS (1.2.4)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LJFastDeveloper (from `../`)
+  - LJFastDeveloper/App (from `../`)
+  - LJFastDeveloper/Leaks (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBRetainCycleDetector
+    - FBSnapshotTestCase
+    - FLEX
+    - MLeaksFinder
+    - WoodPeckeriOS
+
+EXTERNAL SOURCES:
+  LJFastDeveloper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FLEX: e13e805fc3eec8732cc227d1f7508770d46e9587
+  LJFastDeveloper: 583a683263c894d4e78bbe69e6faaa2ddbfecb36
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+  WoodPeckeriOS: bff163c8c996efd45e2fb562f68f6db7f901ac90
+
+PODFILE CHECKSUM: 37effe83a4da5681f61aa15fd96e63dbb2d56140
+
+COCOAPODS: 1.8.4
